@@ -12,7 +12,7 @@ public class GetCurrencyInstance {
 		Scanner scanner = new Scanner(System.in);
 		double payment = scanner.nextDouble();
 		scanner.close();
-
+ 
 		System.out.println("US: " + formatCurrency(payment, Locale.US));
 		System.out.println("India: " + formatCurrency(payment, new Locale("en", "IN")));
 		System.out.println("China: " + formatCurrency(payment, Locale.CHINA));
