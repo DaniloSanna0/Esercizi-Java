@@ -19,4 +19,4 @@ public class GetCurrencyInstance {
 		System.out.println("France: " + formatCurrency(payment, Locale.FRANCE));
 	}
 
-}
+} 
