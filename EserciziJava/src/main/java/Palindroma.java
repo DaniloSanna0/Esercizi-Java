@@ -74,4 +74,14 @@ public class Palindroma {
 		return true;
 		
 	}
+	
+	  // Inverti la stringa
+	//String reversed = new StringBuilder(A).reverse().toString();
+
+    // Confronta la stringa originale con quella invertita
+	// if (A.equals(reversed)) {
+	//   System.out.println("Yes");
+        //} else {
+	//    System.out.println("No");
+        //}
 }
